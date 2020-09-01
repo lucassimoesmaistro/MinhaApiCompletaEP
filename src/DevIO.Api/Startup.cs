@@ -37,6 +37,12 @@ namespace DevIO.Api
             services.AddAutoMapper(typeof(Startup));
 
             services.ResolveDependencies();
+            
+            services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.SuppressModelStateInvalidFilter = true;
+
+            });
 
             services.AddControllers();
         }
