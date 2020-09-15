@@ -13,3 +13,6 @@
 /.vs/MinhaApiCompletaEP
 /src/DevIO.Api/bin/Debug/netcoreapp3.1
 /src/DevIO.Api/wwwroot/imagens
+/src/DevIO.Api/Migrations/ApplicationDbContextModelSnapshot.cs
+/src/DevIO.Api/Migrations/20200915092019_Identity.Designer.cs
+/src/DevIO.Api/Migrations/20200915092019_Identity.cs
